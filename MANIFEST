@@ -8,4 +8,5 @@ README
 t/Exporter.t
 t/pod.t
 t/use.t
+t/warn.t
 META.json                                Module JSON meta-data (added by MakeMaker)
