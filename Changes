@@ -9,9 +9,13 @@ Revision history for Perl extension Exporter.
           x TODO new functions "combine_tags" (or "generate_tag")
           x TODO all indentation 2 spaces
 
+5.70 Sun Apr 13 2014 Todd Rinaldo
+        - No changes. Production release after CPAN testers cleared.
+
 5.70_01 Wed Apr 9 2014 Todd Rinaldo
         - perl #  39739 - Exporter::Heavy ignores custom $SIG{__WARN__} handlers
 	- perl # 119673 - Documentation fixes.
+	- Fixup to POD due to unit test failures from #119673 - TODDR
 
 5.68 Wed Mar 27 2013 Todd Rinaldo
         - Fix erroneous INSTALLDIRS on perls < 5.8 - allows one to
